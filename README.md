@@ -12,6 +12,7 @@ But wait, I you made a mistake!
 Instead of typing "splashes", you typed "splashea".
 
 The only solution to this is to ignore it and push, right?
+
 Right...?
 
 **WRONG!**
@@ -24,6 +25,7 @@ git commit --amend -m "feat: cheddar splashes"
 But wait a second, you also forgot that you are using `cheddar_splash()` in your `main.py`, so now you're gonna have to create a new commit, right?
 
 Right...?
+
 Ok, I got it... Wrong!
 
 To do that is pretty simple too:
@@ -33,6 +35,7 @@ git commit --amend -m "feat: cheddar splashes"
 ```
 
 Problem solved 😎!
+
 **Fun fact:** I used amend like 5 times in a row in this topic, because I made a lot of mistakes.
 
 
