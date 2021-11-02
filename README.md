@@ -8,7 +8,7 @@ git add pizza_killer.py
 git commit -m "feat: cheddar splashea"
 ```
 
-But wait, I you made a mistake!
+But wait, you made a mistake!
 Instead of typing "splashes", you typed "splashea".
 
 The only solution to this is to ignore it and push, right?
