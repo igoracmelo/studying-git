@@ -11,13 +11,14 @@ git commit -m "feat: chedar splash hit"
 But wait, you made a mistake!
 Instead of typing "cheddar", you typed "chedar".
 
-The only solution to this is to ignore it and push, right?
+The only solution to this is to just ignore it and push, right?
 
 Right...?
 
 **WRONG!**
 
-If its just to change the last commit, you only have to use `--amend`:
+If its just to change the last commit, you only have to use `--amend`.
+A commit with `--amend` option will replace the last commit:
 ```sh
 git commit --amend -m "feat: cheddar splash hit"
 ```
@@ -26,7 +27,7 @@ But wait a second, you also forgot that you are using `cheddar_splash_hit()` in 
 
 Right...?
 
-Ok, I got it... Wrong!
+Ok, you got it... Wrong!
 
 To do that is pretty simple too:
 ```sh
